@@ -1,6 +1,8 @@
 ##Commands to run:
 
-- Clone the repo: `git clone https://github.com/mikelord007/arb-workshop.git`
+- Clone the repo: `git clone https://github.com/mikelord007/arb-workshop.git arb-workshop-clone`
+- Change directory to the clone: `cd arb-workshop-clone`
+- Open up VS code in there: `code .`
 - Install dependencies: `npm i`
 - To create a local testnet chain, run hardhat node in another terminal : `npx hardhat node`
 - deploy to local testnet: `npx hardhat ignition deploy ./ignition/modules/SimpleToken.js --network localhost`
